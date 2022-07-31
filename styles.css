@@ -1,0 +1,129 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+
+body {
+
+    margin: 0px;
+    text-align: center;
+    font-family: 'Kanit', sans-serif;
+}
+
+img {
+    width: 150px;
+    height: 150px;
+}
+
+#hero-div {
+    
+    background-image: url("images/isb.jpg");
+    background-size: cover;
+    height: 400px;
+    
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+h1 {
+    
+    background: #606c38;
+    color: white;
+    padding: 5px 15px;
+    border-radius: 10px;
+}
+
+h2 {
+    
+    font-weight: 400;
+    margin-top: 0px;
+    color: white;
+    background: #283618;
+    padding: 5px 5px;
+    width: 450px;
+    border-radius: 10px;
+}
+
+h3 {
+    
+    font-size: 23px;    
+}
+
+#activities-div {
+    
+    margin: 0px;
+    background: #e9edc9;
+    color: #283618;
+    padding: 8px 0 20px 0;
+    
+}
+
+.activity-boxes {
+    
+    display: flex;
+    justify-content: space-around;
+    margin-top: 35px;
+}
+
+.activity-box {
+    
+    width: 200px;
+}
+
+.activity-pics {
+    
+    border-radius: 50%;
+}
+
+p {
+    
+    font-weight: 300;
+}
+
+#guide-card {
+    
+   display: flex;
+   justify-content: center;
+   background: #f6f4d2;
+   border-bottom: 5px solid #606c38;
+   margin: 30px auto;
+   padding: 15px 0px 10px 0px;
+   width: 400px;
+   
+}
+
+.card-text {
+    
+    margin-left: 20px;
+    width: 200px;
+}
+
+#tour-guide {
+    
+    width: 150px;
+    height: 200px;
+}
+
+#quote {
+    
+    font-weight: 600;
+    font-style: italic;
+}
+
+.activity-pics:hover {
+    
+    width: 200px;
+    height: 200px;
+}
+
+#guide-card:hover {
+    
+    background: #e9f5db;
+}
